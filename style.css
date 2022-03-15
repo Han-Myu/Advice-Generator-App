@@ -1,0 +1,60 @@
+*{
+  font-family: "Manrope", sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background-color: hsl(218, 23%, 16%);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 3rem;
+  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 150px;
+}
+.container__title{
+  letter-spacing: 3px;
+  text-align: center;
+  color: hsl(150, 100%, 66%);
+  font-size: small;
+  
+}
+.container__text{
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  font-weight: 800;
+}
+.container__img__pattern_divider{
+  position: absolute;
+}
+.container__button{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  bottom: -10%;
+  background-color: hsl(150, 100%, 66%);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.container__button__icon{
+  width: 40%;
+  height: 40%;
+  margin-top: 20px;
+}
+.container__button:hover{
+  box-shadow: 0px 0px 25px hsl(150, 100%, 66%);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
